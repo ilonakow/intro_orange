@@ -7,5 +7,9 @@ urlpatterns = [
 
     path('hello/eva/', views.eva),
     path('hello/adam/', views.adam),
+
     path('hello/<str:data>/', views.name),
+
+    path('hello2/', views.hello2),
+    path('hello2/<str:data>/', views.name2),
 ]

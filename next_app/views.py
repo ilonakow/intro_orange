@@ -23,5 +23,20 @@ def name(request, data):
 
     return HttpResponse(f"Hello, {data}!")
 
+def hello2(request):
+    return render(
+        request,
+        'next_app/hello.html'
+    )
+
+def name2(request, data):
+    return render(
+        request,
+        'name.html',
+        context={
+            "data": data
+        }
+    )
+
 
 

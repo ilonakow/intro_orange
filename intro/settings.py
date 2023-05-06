@@ -43,7 +43,10 @@ INSTALLED_APPS = [
     # local apps
     'hello.apps.HelloConfig',
     'next_app.apps.NextAppConfig',
+    'links.apps.LinksConfig',
+    'inheritance.apps.InheritanceConfig',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

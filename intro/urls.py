@@ -28,4 +28,6 @@ urlpatterns = [
     path('pikatchu/pokemon-go', views.pokemonGo),
 
     path('next/', include('next_app.urls')),
+    path('links/', include('links.urls')),
+    path('inheritance/', include('inheritance.urls')),
 ]

@@ -74,6 +74,7 @@ def fruits(request):
     }
 
     cow = Cow(name="Mućka")
+
     return render(
         request,
         'fruits.html',
@@ -81,8 +82,8 @@ def fruits(request):
             'fruits': fruits_list,
             'person': person,
             'cow': cow,
-
-        })
+        }
+    )
 
 
 

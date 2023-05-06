@@ -6,15 +6,15 @@
     <title>Title</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <script src="{% static 'js/script.js' %}"></script>
-
 </head>
 <body>
     {% if is_new_year %}
-
-    <h1 style="color: red;">YES</h1>
-        {% else %}
-    <h1 style="color: green; font-size: 90px; font-weight: bold; text-align: center;">NO</h1>
-    <img src="{% static 'img/kot.jpg' %}">
-        {% endif %}
+        <span style="color: red;">YES</span>
+        <h1 style="color: red;">YES</h1>
+    {% else %}
+        <span style="color:green">NO</span>
+        <h1 style="color:green">NO</h1>
+        <img src="{% static 'img/kot.jpg' %}">
+    {% endif %}
 </body>
 </html>

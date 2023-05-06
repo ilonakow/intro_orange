@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-ok
-</body>
-</html>
+{% extends "inheritance/layout.html" %}
+
+{% block title %}PIerwsza{% endblock %}
+
+{% block body %}
+{{ block.super }}
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at aut, consequatur debitis deserunt eos facilis fuga harum, in inventore ipsa magnam, nesciunt nisi numquam quas similique sint vero voluptas.</p>
+{% endblock %}

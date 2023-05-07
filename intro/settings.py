@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # 3rd part apps
+    'django_extensions',
+
+
     # local apps
     'hello.apps.HelloConfig',
     'next_app.apps.NextAppConfig',
@@ -48,9 +52,11 @@ INSTALLED_APPS = [
     'form_app.apps.FormAppConfig',
     'form_app2.apps.FormApp2Config',
     'form_app3.apps.FormApp3Config',
-    'form_app4.apps.FormApp4Config'
-]
+    'form_app4.apps.FormApp4Config',
+  'form_app5.apps.FormApp5Config',
 
+
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

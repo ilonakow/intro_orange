@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'relations_app.apps.RelationsAppConfig',
     'message_app.apps.MessageAppConfig',
     'view_app.apps.ViewAppConfig',
+    'state_app.apps.StateAppConfig',
 
 
 ]

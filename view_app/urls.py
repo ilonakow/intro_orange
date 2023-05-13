@@ -11,4 +11,7 @@ urlpatterns = [
 
     path('hello_template/', views.hello_function_view, name='hello_template'),
     path('hello_template2/', views.HelloClassView.as_view(), name='hello_template2'),
+    # ciekawostka
+    path('hello_template4/', TemplateView.as_view(template_name='view_app/hello.html'), name='hello_template4')
+
 ]

@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'crud_app.apps.CrudAppConfig',
     'relations_app.apps.RelationsAppConfig',
     'message_app.apps.MessageAppConfig',
+    'view_app.apps.ViewAppConfig',
 
 
 ]
@@ -69,6 +70,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'intro.urls'
